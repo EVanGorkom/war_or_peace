@@ -24,4 +24,4 @@ end
 # Now we're going to make a deck class
 # Iteration 1 is to build our card class and our deck class. The goal is to understand how to build our classes and have them interact. Learn how to call tests.
 # Iteration 2 is to create a new class called Player and a turn class. then we will create new methods for them to interact. 
-# Iteration 3 
+# Iteration 3 now we're going to start piecing it all together to actually play the game. First create a runner file and create all 52 cards.
