@@ -9,4 +9,10 @@ class Card
 end
 
 card1 = Card.new("heart", "Jack", 11)
-p card1
+card2 = Card.new("heart", "Queen", 12)
+card3 = Card.new("heart", "King", 13)
+
+cards = [card1, card2, card3]
+
+# card1 = Card.new("heart", "Jack", 11)
+# p card1
