@@ -12,9 +12,26 @@ class Deck
     end
 
     def high_ranking_cards
-        high_ranking_cards = if @cards[index_position].rank >= 11
-            # here we want to save a new array called "high_ranking_cards" with the info that passes through the conditional.
+        @cards.find_all do |card|
+        card.rank >= 11
         end
     end
-end
+    
+    def percent_high_ranking
+        percent = (high_ranking_cards.count.to_f / cards.count.to_f) * 100
+        percent.round(2)
+    end
 
+    def remove_card
+        @cards.delete_at(0)
+    end
+
+end
+    
+#     def remove_card
+#         @cards.delete_at(0)
+#     end
+    
+#     def add_card(card)
+#         @cards.add_at(0)
+#     end
