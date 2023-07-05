@@ -11,6 +11,10 @@ class Deck
         @cards[index_position].rank
     end
 
-
+    def high_ranking_cards
+        high_ranking_cards = if @cards[index_position].rank >= 11
+            # here we want to save a new array called "high_ranking_cards" with the info that passes through the conditional.
+        end
+    end
 end
 
