@@ -69,5 +69,5 @@ describe Deck do
 
         expect(deck.remove_card).to eq([card2, card3])
     end
-    
+
 end
