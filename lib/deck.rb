@@ -6,8 +6,6 @@ class Deck
     end
     
     def rank_of_card_at(index_position)
-        
-        # require 'pry'; binding.pry
         @cards[index_position].rank
     end
 
@@ -26,11 +24,8 @@ class Deck
         @cards.delete_at(0)
     end
 
+    def add_card(card)
+        # require 'pry';binding.pry
+        @cards.push(card)
+    end
 end
-    
-
-
-
-#     def add_card(card)
-#         @cards.add_at(0)
-#     end
