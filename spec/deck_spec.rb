@@ -1,6 +1,6 @@
 require 'rspec'
 require './lib/card'
-require './lib/deck.rb'
+require './lib/deck'
 
 describe Deck do 
     it "exists" do

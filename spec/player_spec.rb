@@ -1,7 +1,7 @@
 require 'rspec'
 require './lib/card'
-require './lib/deck.rb'
-require './lib/player.rb'
+require './lib/deck'
+require './lib/player'
 
 describe Player do
     it "exists" do
