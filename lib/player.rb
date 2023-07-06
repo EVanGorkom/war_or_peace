@@ -7,8 +7,8 @@ class Player
     end
 
     def has_lost?
-        require 'pry';binding.pry
-        if @cards.length == 0
+        # require 'pry';binding.pry
+        if @deck.cards.length == 0
             true
         else
             false
